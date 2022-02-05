@@ -11,9 +11,12 @@ producto ingresado,
     * mostrar todos los datos calculados e ingresados por alert. 
         (solo un alert en el código)
 
+
+        https://onlinegdb.com/07PfBdRDK
 */
 
-function mostrar()
+
+function SacarResto()
 {
     let precioBruto;
     let precioFinal;
@@ -40,20 +43,24 @@ function mostrar()
 
 
 	nombreProducto3 = prompt("Ingrese nombre del producto 3: ");
-	precioProducto3 = prompt("Ingrese precio del producto 3: ");
+	precioProducto3 = prompt("Ingrese precio del producto31: ");
 
     porcentajeDescuento = prompt("Ingrese descuento a aplicar: ");
 
 
-    precioProducto1 = parseFloat(precioProducto1);
-    precioProducto2 = parseFloat(precioProducto2);
-    precioProducto3 = parseFloat(precioProducto3);
+    precioProducto1 = parseFloat(nombreProducto1);
+    precioProducto2 = parseFloat(nombreProducto2);
+    precioProducto3 = parseFloat(nombreProducto2);
     porcentajeDescuento = parseFloat(porcentajeDescuento);
+
+
+    
 
 	precioBruto = precioProducto1 + precioProducto2 + precioProducto3;  
     promedio = precioBruto / 3;
     precioFinal = precioBruto + precioBruto * 0.21;
     precioFinalTotal = precioFinal - (precioFinal * (porcentajeDescuento / 100));
 
-    alert("Precio bruto: " + precioBruto + "\nPromedio: " + promedio + "\nPrecioFinal sin descuento: " + precioFinal + " \nPrecio final total con descuento aplicado: " + precioFinalTotal)
+    alert("Precio bruto: " + precioBruto + "\nPromedio: " + promedio + "\nPrecioFinal sin descuento: " + precioFinal + " \nPrecio final total con descuento aplicado: " + precioFinalTotal);
+    
 }
