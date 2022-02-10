@@ -4,6 +4,8 @@ EJ: Instruccion IF - 1
 Enunciado:
 	Al ingresar una edad que sea igual a 15, 
 	mostrar el mensaje "niña bonita".
+	
+	https://onlinegdb.com/D2HBQVaUx
 
  */
 
